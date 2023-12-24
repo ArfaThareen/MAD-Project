@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_student_details.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFC0CB"
+    tools:context=".StudentDetailsActivity">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/rollNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll Number: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/phoneNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/placedCompanyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Placed Company: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/pdfTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offer letter: "
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/offerLetterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Offer Letter" />
+
+
+
+</LinearLayout>
